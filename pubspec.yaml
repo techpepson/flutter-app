@@ -1,7 +1,7 @@
 name: namer_app
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 0.0.1+1
 
@@ -14,6 +14,8 @@ dependencies:
 
   english_words: ^4.0.0
   provider: ^6.1.2
+  http: ^1.3.0
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +25,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Tektur
+      fonts:
+        - asset: fonts/static/Tektur-Regular.ttf
+
+  assets:
+    - assets/house.avif
